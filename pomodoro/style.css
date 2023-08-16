@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav ul li{
+    padding: 5px;
+    list-style: none;
+    background-color:#FF6F6F;
+}
+
+nav ul li button{
+    border: 1px;
+    cursor: pointer;
+}
+
+nav ul li button i{
+    background-color:#FF6F6F;
+    font-size: 28px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 0.7;
+    background-color: #FF3333;
+}
+
+.container-color{
+    width: 30vw;
+    height: 60vh;
+    text-align: center;
+    border-radius: 3%;
+    background-color: #FF0800;
+}
+
+.container-btns{
+    padding-bottom: 5%;
+}
+
+.container-btns button{
+    padding: 2%;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.container-btns button:nth-of-type(1){
+    background-color: #FB3535;
+}
+
+.container-btns button:nth-of-type(2){
+    background-color: #2E2EF3;
+}
+
+.container-btns button:nth-of-type(3){
+    background-color: #73A9AC;
+    background-color: #AE00FF;
+}
+
+h1{
+    padding: 8%;
+    color: white;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    opacity: 0.5;
+    color: white;
+    font-weight: bolder;
+}
+
+.container-timer{
+    color: #fff;
+    font-size: 128px;
+    margin-bottom: 10%;
+}
+
+#btnTimer{
+    border: 1px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5%;
+    color: aliceblue;
+    background-color: #FC7070;
+}
+
+#btnTimer:hover{
+    opacity: 0.5;
+}
+
+/* ACABA POMODORO */
+
+/* EMPIEZA LOGGER & CREAR CUENTA */
+
+.container-login{
+    background-color:#FF6F6F;
+}
+
+.form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.form input{
+    width: 90%;
+    height: 30px;
+    margin: .5rem;
+}
+
+.form a{
+    color: white;
+}
+  
+.form button{
+    margin: 5%;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: .5em 1em;
+    background-color: rgb(100,200,255);
+}
+
+/* ACABA LOGGER & CREAR CUENTA */
+
+/* EMPIEZA USUARIO */
+
+.container-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#FF6F6F;
+}
+
+.container-user-color{
+    width: 40%;
+    height: 70%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.container-user-text{
+    padding: 5%;
+    font-weight: bold;
+}
+
+.container-user-text h1{
+    font-weight: bold;
+    text-align: center;
+    color: #FF3333;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container-user-text p{
+    padding: 3%;
+}
+
+.container-user-text span{
+    color: red;
+}
+
+.container-user-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-user-btns #btnLogOut{
+    border: 1px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5%;
+    color: aliceblue;
+    background-color: #FC7070;
+}
+
+.container-user-btns #btnLogOut:hover{
+    opacity: 0.5;
+}
+
+.container-user-photoCreator a{
+    display: flex;
+    justify-content: center;
+}
+
+.container-user-photoCreator img{
+    width: 60%;
+}
+
+/* ACABA USUARIO */
+
+/* EMPIEZA MEDIDAS */
+
+@media only screen and (max-width: 450px) {
+    .container{
+        width: 100%;
+    }
+
+    .container-color{
+        width: 80vw;
+        height: 50vh;
+        text-align: center;
+        border-radius: 3%;
+        background-color: #FF0800;
+    }
+
+    .container-timer span{
+        font-size: 88px;
+    }
+
+    .container-user-color{
+        width: 80%;
+        height: 40%;
+    }
+
+    .container-login h1{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .container{
+        width: 100%;
+    }
+
+    .container-color{
+        width: 70vw;
+        height: 50vh;
+        text-align: center;
+        border-radius: 3%;
+        background-color: #FF0800;
+    }
+
+    .container-timer{
+        font-size: 128px;
+    }
+}
+
+/* ACABA MEDIDAS */
